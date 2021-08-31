@@ -11,6 +11,16 @@
             </a>
         </div>
         {% endif %}
+
+        {% if post.thumbnail-small %}
+        <div style="max-width:30%; float:left" >
+          <img style="padding:5% 15%; border-radius: 10%; float: left" src="{{ post.thumbnail-small | relative_url }}">
+        </div>
+        {% else %}
+        <div style="max-width:30%; float:left" >
+          <img style="padding:5% 15%; border-radius: 10%; float: left" src="assets/img/feature-img/story.jpeg">
+        </div>
+        {% endif %}
         <span>
           <header>
             <h1>

@@ -76,24 +76,105 @@ html[data-theme="dark"] {
 
 /* BASE16 CODE HIGHLIGHT */
 // Material Theme
+// html, html[data-theme="light"] {
+//  --base00: #302f2d; // Default Background
+//  --base01: #2e3c43; // Lighter Background (Used for status bars) - NOT USED
+//  --base02: #314549; // Selection Background
+//  --base03: #546e7a; // Comments, Invisible, Line Highlighting
+//  --base04: #b2ccd6; // Dark Foreground (Used for status bars) - NOT USED
+//  --base05: #eeffff; // Light Foreground (Not often used)
+//  --base06: #eeffff; // Light Background (Not often used)
+//  --base07: #ffffff; // Default Foreground, Default text color
+//  --base08: #f07178; // Parenthesis, Caret, Delimiters, Operators
+//  --base09: #f78c6c; // Classes, Markup Bold, Search Text Background
+//  --base0a: #ffcb6b; // Strings, Inherited Class, Markup Code, Diff Inserted
+//  --base0b: #98c379; // Functions, Methods, Attribute IDs, Headings
+//  --base0c: #89ddff; // Support, Regular Expressions, Escape Characters, Markup Quotes
+//  --base0d: #82aaff; // Keywords, Storage, Selector, Markup Italic, Diff Changed
+//  --base0e: #c792ea; // Integers, Boolean, Constants, XML Attributes, Markup Link Url
+//  --base0f: #ff5370; // Deprecated, Opening/Closing Embedded Language Tags e.g.
+//}
+
+// Material Theme Palenight
+//html, html[data-theme="light"] {
+//  --base00: #292D3E;
+//  --base01: #444267;
+//  --base02: #32374D;
+//  --base03: #676E95;
+//  --base04: #8796B0;
+//  --base05: #959DCB;
+//  --base06: #959DCB;
+//  --base07: #FFFFFF;
+//  --base08: #F07178;
+//  --base09: #F78C6C;
+//  --base0a: #FFCB6B;
+//  --base0b: #C3E88D;
+//  --base0c: #89DDFF;
+//  --base0d: #82AAFF;
+//  --base0e: #C792EA;
+//  --base0f: #FF5370;
+//}
+
+// Material Theme Lighter
+//html, html[data-theme="light"] {
+//  --base00: #FAFAFA;
+//  --base01: #E7EAEC;
+//  --base02: #CCEAE7;
+//  --base03: #CCD7DA;
+//  --base04: #8796B0;
+//  --base05: #80CBC4;
+//  --base06: #80CBC4;
+//  --base07: #FFFFFF;
+//  --base08: #FF5370;
+//  --base09: #F76D47;
+//  --base0a: #FFB62C;
+//  --base0b: #91B859;
+//  --base0c: #39ADB5;
+//  --base0d: #6182B8;
+//  --base0e: #7C4DFF;
+//  --base0f: #E53935;
+//}
+
+// NORD
+// author: "arcticicestudio"
 html, html[data-theme="light"] {
-  --base00: #302f2d; // Default Background
-  --base01: #2e3c43; // Lighter Background (Used for status bars) - NOT USED
-  --base02: #314549; // Selection Background
-  --base03: #546e7a; // Comments, Invisible, Line Highlighting
-  --base04: #b2ccd6; // Dark Foreground (Used for status bars) - NOT USED
-  --base05: #eeffff; // Light Foreground (Not often used)
-  --base06: #eeffff; // Light Background (Not often used)
-  --base07: #ffffff; // Default Foreground, Default text color
-  --base08: #f07178; // Parenthesis, Caret, Delimiters, Operators
-  --base09: #f78c6c; // Classes, Markup Bold, Search Text Background
-  --base0a: #ffcb6b; // Strings, Inherited Class, Markup Code, Diff Inserted
-  --base0b: #98c379; // Functions, Methods, Attribute IDs, Headings
-  --base0c: #89ddff; // Support, Regular Expressions, Escape Characters, Markup Quotes
-  --base0d: #82aaff; // Keywords, Storage, Selector, Markup Italic, Diff Changed
-  --base0e: #c792ea; // Integers, Boolean, Constants, XML Attributes, Markup Link Url
-  --base0f: #ff5370; // Deprecated, Opening/Closing Embedded Language Tags e.g.
+  --base00: #2E3440;
+  --base01: #3B4252;
+  --base02: #434C5E;
+  --base03: #4C566A;
+  --base04: #D8DEE9;
+  --base05: #E5E9F0;
+  --base06: #ECEFF4;
+  --base07: #8FBCBB;
+  --base08: #88C0D0;
+  --base09: #81A1C1;
+  --base0A: #5E81AC;
+  --base0B: #BF616A;
+  --base0C: #D08770;
+  --base0D: #EBCB8B;
+  --base0E: #A3BE8C;
+  --base0F: #B48EAD;
 }
+
+// Custom based on Nord
+// html, html[data-theme="light"] {
+////  --base00: #3b4252; // Default Background
+//  --base01: #2e3c43; // Lighter Background (Used for status bars) - NOT USED
+//  --base02: #314549; // Selection Background
+//  --base03: #546e7a; // Comments, Invisible, Line Highlighting
+//  --base04: #b2ccd6; // Dark Foreground (Used for status bars) - NOT USED
+//  --base05: #eeffff; // Light Foreground (Not often used)
+//  --base06: #eeffff; // Light Background (Not often used)
+////  --base07: #2e3440; // Default Foreground, Default text color
+////  --base08: #2e3440; // Parenthesis, Caret, Delimiters, Operators
+//  --base09: #f78c6c; // Classes, Markup Bold, Search Text Background
+//  --base0a: #ffcb6b; // Strings, Inherited Class, Markup Code, Diff Inserted
+//  --base0b: #98c379; // Functions, Methods, Attribute IDs, Headings
+//  --base0c: #89ddff; // Support, Regular Expressions, Escape Characters, Markup Quotes
+//  --base0d: #82aaff; // Keywords, Storage, Selector, Markup Italic, Diff Changed
+//  --base0e: #c792ea; // Integers, Boolean, Constants, XML Attributes, Markup Link Url
+//  --base0f: #ff5370; // Deprecated, Opening/Closing Embedded Language Tags e.g.
+//}
 
 // Supernova Theme
 html[data-theme="dark"] {

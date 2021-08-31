@@ -5,14 +5,14 @@ calendly:
 dribbble:
 facebook:
 flickr:
-github: sylhare
+github: mmahsereci
 gitlab:
-google-scholar:   # e.g. "WXAAOb0AAAAJ"
+google-scholar: krBt_aIAAAAJ&hl  # e.g. "WXAAOb0AAAAJ"
 instagram:
 hacker-news:
 keybase:
 linkedin:
-mail:             # e.g. "sam@mail.com"
+mail: "maren.mahsereci@uni-tuebingen.de"            # e.g. "sam@mail.com"
 map:              # e.g. "34.0886/-118.3191"
 mastodon:         # e.g. "fostodon.org/@sam"
 matrix:           # e.g. "@sam:matrix.org"
@@ -29,7 +29,7 @@ steam:
 telegram:
 tumblr:
 twitch:
-twitter:
+twitter: MMahsereci
 vimeo:
 vk:
 wordpress:
