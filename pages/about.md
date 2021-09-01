@@ -49,12 +49,14 @@ whenever I find the time by added them to the tech blog :) Also, I wanted to tea
 
 ## News
 
-older news?
+
+
+For older news, click [here]({{ site.baseurl }}{% link pages/news.md %}) .
 
 ---
 ## Background
 
-In short: Ex Amazon Retail, ex AWS Sagemaker, Max-Plank Alumni. 
+Ex Amazon Retail, ex AWS Sagemaker, Max-Plank Alumni. 
 Currently, back in academia. 
 
 <div style="width: 91%;">
