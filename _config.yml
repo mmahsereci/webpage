@@ -5,6 +5,7 @@ url: "https://mmahsereci.github.io"
 # THEME-SPECIFIC CONFIGURATION
 title: Techblog                                   # site's title
 description: "A website with blog posts and pages"      # used by search engines
+#avatar: assets/img/profile2.jpg                         # Empty for no avatar in navbar
 avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
@@ -14,6 +15,7 @@ header_text: >
 
      <p>Enjoy.</p>
 header_feature_image: assets/img/pexels/triangular.jpeg
+
 footer_text: >
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
