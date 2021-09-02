@@ -4,7 +4,7 @@ title:      "Percentiles & Confidence Intervals"
 author:     mmahsereci
 snippet:    ""
 date:       2021-09-01
-thumbnail-small:  "/img/2021-08-31-std/thumbnail.png"
+thumbnail-small:  "/img/2021-09-01-confidence-intervals/thumbnail.png"
 category:   techblog
 tags:       [Statistics, Blog]
 
@@ -29,11 +29,11 @@ In essence the idea is the normal approximattion
 
 requires the normal approximation. perhaps for another post.
 
- ![png]({{ site.baseurl }}/img/2021-08-31-std/01.png)
+ ![png]({{ site.baseurl }}/img/2021-09-01-confidence-intervals/01.png)
 
- ![png]({{ site.baseurl }}/img/2021-08-31-std/06.png)
+ ![png]({{ site.baseurl }}/img/2021-09-01-confidence-intervals/06.png)
 
- ![png]({{ site.baseurl }}/img/2021-08-31-std/07.png)
+ ![png]({{ site.baseurl }}/img/2021-09-01-confidence-intervals/07.png)
 
 There is more to confidence intervals, for example they can be defined for skewe distirubtions, too. but 
 that is the topic of another blog post.
