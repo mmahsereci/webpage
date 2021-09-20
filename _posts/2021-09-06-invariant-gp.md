@@ -107,11 +107,6 @@ Let's create some pretty plots. Below we plot 4 x 8 = 32 samples of invariant Ga
 The samples are from the prior GP not conditions on any data. We can see that the samples obey the invariances encoded.
 
 
-### Rotations
-
- ![png]({{ site.baseurl }}/img/2021-09-06-invariant-gp/rotations_00.png)
-
-
 ### Point-symmetry
 
  ![png]({{ site.baseurl }}/img/2021-09-06-invariant-gp/point_00.png)
@@ -120,6 +115,17 @@ The samples are from the prior GP not conditions on any data. We can see that th
 
  ![png]({{ site.baseurl }}/img/2021-09-06-invariant-gp/flip-point_00.png)
 
+
+### Rotations
+
+Group $$G_f$$ contains $$J=5$$-fold rotations with $$T_i = R(\theta=i\frac{2\pi}{J})$$ for $$i=1,\dots,J$$ where $$R(\theta)$$ is 
+the [2D rotation matrix](https://en.wikipedia.org/wiki/Rotation_matrix). 
+
+ ![png]({{ site.baseurl }}/img/2021-09-06-invariant-gp/rotations_00.png)
+
+Same as above but for $$J=10$$-fold rotation. 
+
+ ![png]({{ site.baseurl }}/img/2021-09-06-invariant-gp/rotations_00_n10.png)
 
 
 
