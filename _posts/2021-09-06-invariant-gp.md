@@ -105,6 +105,8 @@ a finite number of dimensions, we obtain a Gaussian distribution. The covariance
 
 Let's create some pretty plots. Below we plot 4 x 8 = 32 samples of invariant Gaussian processes with a 2D input domain.
 The samples are from the prior GP not conditions on any data. We can see that the samples obey the invariances encoded.
+This means that the model, if conditioned on function evaluation, needs not learn the invriant of the function, as it
+is already encoded in the prior. This will likely lead to sample-efficient algorithms.
 
 
 ### Point-symmetry

@@ -11,9 +11,9 @@ tags: [Contact]
 <br>
 
 <div style="max-width:40%; float:left; text-align:center" >
-  <img style="padding:0 15%; border-radius: 50%; float: left" src="./../assets/img/profile.jpg" alt="profile">
+  <img style="padding:0 15%; border-radius: 50%; float: left" src="./../assets/img/profile2.jpg" alt="profile">
   <em>
-    <span style="display:inline-block">Hiking, Munich 2021.</span>
+    <span style="display:inline-block">Dover, UK 2018.</span>
   </em>
 </div>
 Hi, I am **Maren**. Welcome to my blog. 
@@ -50,6 +50,16 @@ whenever I find the time by adding them to the tech blog :) Also, I wanted to te
 ## News
 
 
+- 10/2021: I am **co-organizing** the Dagstuhl Seminar on [*Probabilistic Numerical Methods - From Theory to Implementation*](https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=21432) 
+  Wadern, Germany. 
+- 09/2021: I started a blog.
+- 07/2021: Our **paper** [*Dynamic Pruning of a Neural Network via Gradient Signal-to-Noise Ratio*](https://openreview.net/pdf?id=34awaeWZgya) 
+  of my intern *Julien Siems* at Amazon Web Services has been accepted at the 
+  [*8th ICML Workshop on Automated Machine Learning*](https://sites.google.com/view/automl2021) (AutoML) 2021.
+- 05/2021: I got majorly involved in the **open source** project [ProbNum](http://probnum.org).
+- 05/2021: **I joint the group Methods of Machine Learning**
+  ([MoML](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/))
+  headed by Philipp Hennig as a PostDoc @ University of T&uuml;bingen, Germany.
 
 For older news, click [here]({{ site.baseurl }}{% link pages/news.md %}) .
 
