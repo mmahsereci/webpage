@@ -16,7 +16,7 @@ tags: [Contact]
     <span style="display:inline-block">Dover, UK 2018.</span>
   </em>
 </div>
-Hi, I am **Maren**. Welcome to my blog. 
+Hi, I am **Maren**. 
 
 I am a machine learning scientist currently at the 
 [University of T&uuml;bingen](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/), 

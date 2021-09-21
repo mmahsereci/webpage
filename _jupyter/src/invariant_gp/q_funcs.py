@@ -87,6 +87,22 @@ def Q_point_mirror(N: int, D: int):
         raise ValueError('dimension not supported')
 
 
+    
+def Q_x_mirror(N: int, D: int):
+    """flip one axis if 2D and 1 axis of 1D"""
+    if D == 1:
+        Q = np.zeros([2, D, D])
+        Q[0, :, :] = np.eye(D)
+        Q[1, :, :] = np.array([[-1]])
+        return Q
+    elif D == 2:
+        Q = np.zeros([2, D, D])
+        Q[0, :, :] = np.eye(D)
+        Q[1, :, :] = np.array([[1, 0], [0, -1]])
+        return Q
+    else:
+        raise ValueError('dimension not supported')
+
 def Q_y_mirror(N: int, D: int):
     """flip one axis if 2D and 1 axis of 1D"""
     if D == 1:
