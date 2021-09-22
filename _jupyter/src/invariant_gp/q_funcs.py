@@ -25,29 +25,13 @@ def Q_identities(N: int, D: int):
 
 
 def Q_permutation(N: int, D: int):
+    """not sure if this is a meaninful group"""
     if D == 1:
         raise ValueError('D must be >1')
     elif D == 2:
         Q = np.zeros([2, D, D])
         Q[0, :, :] = np.eye(D)
         Q[1, :, :] = np.array([[0, 1], [1, 0]])
-        return Q
-    else:
-        raise ValueError('dimension not supported')
-
-
-def Q_y_and_x_flip(N: int, D: int):
-    """flip each axis individually"""
-    if D == 1:
-        Q = np.zeros([2, D, D])
-        Q[0, :, :] = np.eye(D)
-        Q[1, :, :] = np.array([[-1]])
-        return Q
-    elif D == 2:
-        Q = np.zeros([3, D, D])
-        Q[0, :, :] = np.eye(D)
-        Q[1, :, :] = np.array([[ 1, 0], [0, -1]])
-        Q[2, :, :] = np.array([[-1, 0], [0,  1]])
         return Q
     else:
         raise ValueError('dimension not supported')
@@ -86,10 +70,9 @@ def Q_point_mirror(N: int, D: int):
     else:
         raise ValueError('dimension not supported')
 
-
     
 def Q_x_mirror(N: int, D: int):
-    """flip one axis if 2D and 1 axis of 1D"""
+    """flips the y-axis (x-mirror) if 2D and 1 axis of 1D"""
     if D == 1:
         Q = np.zeros([2, D, D])
         Q[0, :, :] = np.eye(D)
@@ -103,8 +86,9 @@ def Q_x_mirror(N: int, D: int):
     else:
         raise ValueError('dimension not supported')
 
+    
 def Q_y_mirror(N: int, D: int):
-    """flip one axis if 2D and 1 axis of 1D"""
+    """flips the x-axis (y-mirror) if 2D and 1 axis of 1D"""
     if D == 1:
         Q = np.zeros([2, D, D])
         Q[0, :, :] = np.eye(D)

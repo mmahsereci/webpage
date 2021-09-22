@@ -94,7 +94,7 @@ tags: [Page]
 - 08/2014: I attended the [*Roundtable on Probabilistic Numerics*](http://www.probabilistic-numerics.org/en/latest/research/meetings/RoundtablePN2014.html) @ 
   Max Planck Institute (MPI) for Intelligent Systems, T&uuml;bingen, Germany.
 - 08/2013:I attended the [*Machine Learning Summer School*](http://mlss.tuebingen.mpg.de/2013/2013/index.html) (MLSS) in T&uuml;bingen, Germany.
-- 07:2013: **I joint the Max Planck Institute (MPI) for Intelligent Systems** in T&uuml;bingen, Germany, as a PhD candidate in machine learning. 
+- 07/2013: **I joint the Max Planck Institute (MPI) for Intelligent Systems** in T&uuml;bingen, Germany, as a PhD candidate in machine learning. 
 - 06/2013: I attended the [*Gaussian Process Summer School*](http://gpss.cc/gpss13/) (GPSS) as well as the 
   [*Latent Force Model Workshop*](http://gpss.cc/lfm13/) Sheffield, UK.
  

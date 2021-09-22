@@ -103,7 +103,7 @@ Currently, back in academia.
           <img src="./../assets/img/about/minerva.svg" alt="" width="230" />
         </a>
         <p style="margin-left: -50px; ">
-          ??/2013 - 02/2018: &nbsp;&nbsp;&nbsp; Max Planck Institute for Intelligent Systems
+          08/2013 - 02/2018: &nbsp;&nbsp;&nbsp; Max Planck Institute for Intelligent Systems
                               &nbsp;&mdash;&nbsp; (PhD candidate)
         </p> 
     </li>
@@ -121,7 +121,7 @@ Currently, back in academia.
           <img src="./../assets/img/about/goettingen.png" alt="" width="230" />
         </a>
         <p style="margin-left: -50px; ">
-          01/2013 - ??/2013: &nbsp;&nbsp;&nbsp; University of Goettingen 
+          01/2013 - 07/2013: &nbsp;&nbsp;&nbsp; University of Goettingen 
                               &nbsp;&mdash;&nbsp; (PhD-1 candidate, discontinued)
         </p>
     </li>
@@ -130,7 +130,7 @@ Currently, back in academia.
           <img src="./../assets/img/about/minerva.svg" alt="" width="230" />
         </a>
         <p style="margin-left: -50px; ">
-          ??/2012 - 12/2012: &nbsp;&nbsp;&nbsp; Max Planck Institute Developmental Biology
+          07/2012 - 12/2012: &nbsp;&nbsp;&nbsp; Max Planck Institute Developmental Biology
                               &nbsp;&mdash;&nbsp; (PhD-1 candidate)
         </p>
     </li>
@@ -139,7 +139,7 @@ Currently, back in academia.
           <img src="./../assets/img/about/odtu.png" alt="" width="230" />
         </a>
         <p style="margin-left: -50px; ">
-          ??/2008 - ??/2009: &nbsp;&nbsp;&nbsp; Middle East Technical University
+          09/2008 - 07/2009: &nbsp;&nbsp;&nbsp; Middle East Technical University
                               &nbsp;&mdash;&nbsp; (ERASMUS exchange)
         </p>
     </li>
@@ -148,7 +148,7 @@ Currently, back in academia.
           <img src="./../assets/img/about/tue.svg" alt="" width="230" />
         </a>
         <p style="margin-left: -50px; ">
-          ??/2005 - ??/2011: &nbsp;&nbsp;&nbsp; University of T&uuml;bingen 
+          10/2005 - 11/2011: &nbsp;&nbsp;&nbsp; University of T&uuml;bingen 
                               &nbsp;&mdash;&nbsp; (Studies towards Diplom in physics; equiv to MSc.)
         </p>
     </li>

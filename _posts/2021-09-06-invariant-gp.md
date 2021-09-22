@@ -29,7 +29,7 @@ This simply means that the function $$f$$ takes the same value at $$\mathbb{x}$$
 > Simple 1D example: $$f(x) = x^2$$ is invariant under flipping the x-axis, i.e., $$f(x) = f(-x)$$ with $$T(x) = -x $$.
 
 
-### Invariance groups and Orbits
+### Invariance groups and orbits
 
 Consider now a function that is invariant under a finite set of $$J$$ transformations $$T_i$$, $$i=1, ..., J$$.
 As the invariance under each $$T_i$$ holds for any input $$\mathbb{x}$$ (also those that have been transformed), 
