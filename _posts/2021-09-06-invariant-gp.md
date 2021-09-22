@@ -37,12 +37,12 @@ the $$T_i$$ must form the group
 $$G_f:=\{T | f(\mathbb{x}) = f(T(\mathbb{x})) \text{ for all } \mathbb{x} \in\mathcal{X}\}$$. 
 That is, $$G_f$$ contains arbitrary concatenations $$T_i\circ T_j\circ \dots$$, the identity transform $$T=I$$,
 the inverses $$T_i^{-1}$$, and the $$T_i$$ obey associativity. 
+There may be several groups associated with a function $$f$$, depending on which invariances are considered.
 
-> For the above example $$f(x) = x^2$$, the group $$G_f$$ only contains $$J=2$$
+> For the above example $$f(x) = x^2$$, the implied group $$G_f$$ only contains $$J=2$$
 > transformations $$G_f = \{T_0, T_1\}$$ with $$T_0(x)=x$$ and $$T_1(x)=-x$$. 
 > This is because all possible concatenations  $$T_i\circ T_j\circ \dots$$ as well as the inverses $$T_i^{-1}$$ 
 > collapse back to $$T_0$$ or $$T_1$$ and are thus already in $$G_f$$ (Examples: $$T_1^{-1} = T_1$$, or $$T_1\circ (T_1 \circ T_1) = T_1\circ T_0 = T_1$$ etc). 
-> In other examples the group-size $$J$$ may be larger.
 
 
 Given $$G_f$$, the set $$\mathcal{A}(\mathbb{x}):=\{T(\mathbb{x}) | \text{ for all } T\in G_f\}$$ 
@@ -89,18 +89,15 @@ $$
 $$
 
 GP regression on $$f$$ is straightforward, too, as the above equation simply defines another positive definite kernel $$k_f$$.
-In essence, we did not transform the distribution of $$g$$ itself, we merely correlated function values of invariant locations in input space.
-
-#### 1D example and plot
-
+In essence, we did not transform the distribution of $$g$$ itself, we merely correlated function values of $$g$$ at invariant locations in input space.
 
 
 ## Pretty Priors: Samples of invariant GPs
 
 Let's create some plots. Below we plot 4 x 8 = 32 samples of invariant Gaussian processes with a 2D input domain.
 The samples are from the prior GP not conditions on any data. We can see that the samples obey the invariances encoded.
-This means that the model, if conditioned on function evaluation, needs not learn the invriant of the function, as it
-is already encoded in the prior. This will likely lead to sample-efficient algorithms.
+This means that the model, if conditioned on function evaluation, needs not learn the invariance property 
+of the function from the data, as it is already encoded in the prior. This will likely lead to sample-efficient algorithms.
 
 
 ### Point-symmetry
@@ -114,7 +111,7 @@ prior samples (the origin at $$[0, 0]$$ is in the center of each plot).
 
 ### Axis-symmetry along both axis
 
-In order to encode axis-symmetry along both axis, we need to add two additional invariance $$T_2$$ and $$T_3$$ in addition to $$T_0$$ and
+In order to encode axis-symmetry along both axis, we need to add two additional invariances $$T_2$$ and $$T_3$$ in addition to $$T_0$$ and
 $$T_1$$ above (total of $$J=4$$ transformations). $$T_2$$ and $$T_3$$ each flip the sign of one axis, 
 that is $$T_3 = [[-1, 0]; [0, 1]]$$ and $$T_3 = [[1, 0]; [0, -1]]$$.
 We observe that the samples from this prior observe the axis-symmetries.
@@ -142,6 +139,11 @@ Same as above but for $$10$$-fold rotation ($$J=10$$).
 
  ![png]({{ site.baseurl }}/img/2021-09-06-invariant-gp/rotations_00_n10.png)
 
+## Where is the data?
+
+Nowhere yet. I may write another blogpost showing posterior samples from the invariant GPs. They look quite cool 
+indeed, as the invariant GP seems to "learn" at locations where nothing is observed (this is at and close to points 
+that are invariant to observed points under the model). I may also discuss algorithmic complexity there.
 
 
 ## References

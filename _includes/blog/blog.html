@@ -28,7 +28,10 @@
                 {{ post.title }}
               </a>
             </h1>
+            <!--
             {% include blog/post_info.html author=post.author date=post.date %}
+            -->
+            {% include blog/post_info.html date=post.date %}
           </header>
           {% if site.excerpt or site.theme_settings.excerpt %}
               <div class="excerpt">
