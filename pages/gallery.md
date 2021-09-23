@@ -1,14 +1,17 @@
 ---
 layout: page
-title: Gallery
-subtitle: From the pexels folder
+title: ML Gallery
+subtitle: And some classic paintings
 permalink: /gallery/
-gallery_path: "assets/img/pexels"
+gallery_path_1: "assets/img/ml_art/gallery_1"
+gallery_path_2: "assets/img/ml_art/gallery_2"
 tags: [Page]
 ---
 
-This is a photo gallery made from the static files in the `assets/img/pexels` folder. 
-I wanted to create automatically a simple gallery from a folder without having to create a markdown page as you would for the portfolio.
+This is a photo gallery made of plots related to my blog posts on machine learning and statistics. There are also
+some classic paintings in between (all public domain). This gallery may grow with more blog posts.
 
 
-{% include gallery.html gallery_path=page.gallery_path %}
+{% include gallery.html gallery_path=page.gallery_path_1 %}
+
+{% include gallery.html gallery_path=page.gallery_path_2 %}

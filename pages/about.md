@@ -18,9 +18,9 @@ tags: [Contact]
 </div>
 Hi, I am **Maren**. 
 
-I am a machine learning scientist currently at the 
+I am a postdoctoral researcher at the 
 [University of T&uuml;bingen](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/), 
-however most of my time I spend in Berlin.
+however a lot of my time I spend in Berlin.
 
 I am interested in 
 
@@ -159,12 +159,14 @@ Currently, back in academia.
 
 ## Projects
 
+tbd
+
 ---
 
 
 ## Publications
 
-Thesis
+tbd
 
 ---
  

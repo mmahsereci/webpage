@@ -6,7 +6,7 @@ snippet:    ""
 date:       2021-09-06
 thumbnail-small:  "/img/2021-09-06-invariant-gp/thumbnail.png"
 category:   techblog
-tags:       [Blog, Gaussian process]
+tags:       [Blog, Gaussian processes, Machine learning]
 
 ---
 
@@ -107,7 +107,7 @@ Group $$G_f$$ is of size $$J=2$$ and contains $$T_0= I$$ as well as a projection
 prior samples (the origin at $$[0, 0]$$ is in the center of each plot).
 
 
- ![png]({{ site.baseurl }}/img/2021-09-06-invariant-gp/point_00.png)
+ ![png]({{ site.baseurl }}/img/2021-09-06-invariant-gp/point_00_a.png)
 
 ### Axis-symmetry along both axis
 
@@ -116,7 +116,7 @@ $$T_1$$ above (total of $$J=4$$ transformations). $$T_2$$ and $$T_3$$ each flip 
 that is $$T_3 = [[-1, 0]; [0, 1]]$$ and $$T_3 = [[1, 0]; [0, -1]]$$.
 We observe that the samples from this prior observe the axis-symmetries.
 
- ![png]({{ site.baseurl }}/img/2021-09-06-invariant-gp/flip-point_00.png)
+ ![png]({{ site.baseurl }}/img/2021-09-06-invariant-gp/flip-point_00_a.png)
 
 
 ### Axis-symmetry along one axis
@@ -124,7 +124,7 @@ We observe that the samples from this prior observe the axis-symmetries.
 For axis-symmetry along one axis only (say x-axis), we only require $$J=2$$ transformations given by $$T_0=I$$ and 
 $$T_1 = [[1, 0]; [0, -1]]$$. The samples again obey the symmetry.
 
- ![png]({{ site.baseurl }}/img/2021-09-06-invariant-gp/x-flip_00.png)
+ ![png]({{ site.baseurl }}/img/2021-09-06-invariant-gp/y-flip_00_a.png)
 
 
 ### Rotations
@@ -133,11 +133,11 @@ Lastly, for $$J$$-fold rotational symmetry, the group $$G_f$$ contains $$J$$-fol
 $$T_i = R(\theta=i\frac{2\pi}{J})$$ for $$i=1,\dots,J$$ where $$R(\theta)$$ is 
 the [2D rotation matrix](https://en.wikipedia.org/wiki/Rotation_matrix). Below we show $$J=5$$.
 
- ![png]({{ site.baseurl }}/img/2021-09-06-invariant-gp/rotations_00.png)
+ ![png]({{ site.baseurl }}/img/2021-09-06-invariant-gp/rotations_00_a.png)
 
 Same as above but for $$10$$-fold rotation ($$J=10$$). 
 
- ![png]({{ site.baseurl }}/img/2021-09-06-invariant-gp/rotations_00_n10.png)
+ ![png]({{ site.baseurl }}/img/2021-09-06-invariant-gp/rotations_00_n10_a.png)
 
 ## Where is the data?
 
