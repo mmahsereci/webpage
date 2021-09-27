@@ -26,7 +26,8 @@ $$T:\mathcal{X}\rightarrow \mathcal{X}$$ if
 $$f(T(\mathbb{x})) = f(\mathbb{x})$$ holds for all $$\mathbb{x}$$ in $$\mathcal{X}$$.
 This simply means that the function $$f$$ takes the same value at $$\mathbb{x}$$ and $$T(\mathbb{x})$$ for all $$\mathbb{x}$$.
 
-> Simple 1D example: $$f(x) = x^2$$ is invariant under flipping the x-axis, i.e., $$f(x) = f(-x)$$ with $$T(x) = -x $$.
+> Simple 1D example: $$f(x) = x^2$$ is invariant under flipping the x-axis, i.e., $$f(x) = f(-x)$$ with $$T(x) = -x $$, 
+> and $$x\in\mathbb{R}$$.
 
 
 ### Invariance groups and orbits

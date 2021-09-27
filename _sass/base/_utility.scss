@@ -41,6 +41,23 @@
   }
 }
 
+%padding-project {
+  padding: $padding-x-small $padding-x-large;
+  @media (max-width: $xl-break) {
+    padding: $padding-x-small ($padding-large * 0);
+  }
+  @media (max-width: $l-break) {
+    padding: $padding-x-small $padding-large;
+  }
+  @media (max-width: $m-break) {
+    padding: $padding-x-small $padding-medium;
+  }
+  @media (max-width: $sm-break) {
+    padding: $padding-x-small $padding-small;
+  }
+}
+
+
 .txt-shadow {
   text-shadow: 0.07em 0.10em 0.15em var(--text-shadow);
   //text-shadow: 0.0em 0.0em 0.0em var(--text-shadow);
