@@ -69,6 +69,29 @@
 }
 
 // Buttons
+.button-projects {
+  border-radius: 0.3em;
+  border: 1px solid;
+  display: inline-block;
+  margin: 0.5em 0em;
+  padding: 0.3em 1em;
+  margin-right: 0.5em;
+}
+
+a.button-projects {
+  @extend .button-projects-link;
+}
+
+.button-projects-link {
+  &:hover {
+    background: var(--link);
+    border: 1px solid var(--link);
+    color: var(--background);
+    text-decoration: none;
+  }
+}
+
+
 .button {
   border-radius: 0.3em;
   border: 1px solid;
