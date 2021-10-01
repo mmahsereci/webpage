@@ -166,7 +166,7 @@ For projects, click [here]({{ site.baseurl }}{% link pages/projects.md %}) .
 
 ## Publications
 
-For a list of publications, please click [here]({{ site.baseurl }}{% link pages/publications.md %}) .
+tbd
 
 ---
  
