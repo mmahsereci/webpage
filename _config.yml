@@ -11,11 +11,12 @@ favicon: assets/favicon.ico                             # Icon displayed in the 
 # Header and footer text
 header_text: >
      <p>  . </p>
-     <p>  . </p>
+#     <p>  . </p>
 #     <p>Hi, and welcome. This is a tech blog.</p>
 
 #     <p>Enjoy.</p>
-header_feature_image: assets/img/blog/Frau_centered2.jpg
+header_feature_image: "assets/img/projects/aurora_02.jpg"
+#header_feature_image: assets/img/blog/Frau_centered2.jpg
 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>

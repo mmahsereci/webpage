@@ -3,7 +3,9 @@ layout: page
 title: "Projects"
 subtitle: ""
 permalink: /projects/
-feature-img: "assets/img/projects/painting.jpg"
+#feature-img: "assets/img/projects/painting.jpg"
+feature-img: "assets/img/projects/aurora_02a.jpg"
+#feature-img: "assets/img/projects/opt_03.png"
 
 tags: [Page]
 ---
@@ -70,7 +72,7 @@ inference to be applied to numerical problems which seems to me a vast, exciting
 <div class="projects">
     <div class="project-teaser">
         <div class="project-img">
-            <img alt="Hallo" src="./../assets/img/projects/filt_04.png">
+            <img alt="Hallo" src="./../assets/img/projects/filt_02.png">
         </div>
     </div>
 </div>

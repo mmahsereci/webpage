@@ -11,7 +11,7 @@ tags: [Contact]
 <br>
 
 <div style="max-width:40%; float:left; text-align:center" >
-  <img style="padding:0 15%; border-radius: 50%; float: left" src="./../assets/img/profile2.jpg" alt="profile">
+  <img style="padding:0 15%; border-radius: 50%; float: left" src="./../assets/img/about/profile2.jpg" alt="profile">
   <em>
     <span style="display:inline-block">Dover, UK 2018.</span>
   </em>
@@ -166,7 +166,7 @@ For projects, click [here]({{ site.baseurl }}{% link pages/projects.md %}) .
 
 ## Publications
 
-tbd
+Sub-page tbd. Google Scholar page [here](https://scholar.google.com/citations?user=krBt_aIAAAAJ&hl=de).
 
 ---
  
