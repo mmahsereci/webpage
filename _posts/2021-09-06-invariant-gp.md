@@ -125,7 +125,7 @@ We observe that the samples from this prior observe the axis-symmetries.
 For axis-symmetry along one axis only (say x-axis), we only require $$J=2$$ transformations given by $$T_0=I$$ and 
 $$T_1 = [[1, 0]; [0, -1]]$$. The samples again obey the symmetry.
 
- ![png]({{ site.baseurl }}/img/2021-09-06-invariant-gp/y-flip_00_a.png)
+ ![png]({{ site.baseurl }}/img/2021-09-06-invariant-gp/x-flip_00_a.png)
 
 
 ### Rotations

@@ -3,9 +3,8 @@ layout: page
 title: "Projects"
 subtitle: ""
 permalink: /projects/
-#feature-img: "assets/img/projects/painting.jpg"
-feature-img: "assets/img/projects/aurora_02a.jpg"
-#feature-img: "assets/img/projects/opt_03.png"
+#feature-img: "assets/img/projects/aurora_02a.jpg"
+feature-img: "assets/img/projects/aurora_02.jpg"
 
 tags: [Page]
 ---
@@ -19,6 +18,8 @@ Click here to go to [open source software](#open-source-software) projects.
 
 Listed below are the research topics I am mainly interested in. 
 
+
+<div style="line-height:200%;"><br></div>
 <div class="projects">
     <div class="project-teaser">
         <div class="project-img">
@@ -42,6 +43,7 @@ I am ahighly motivated by these questions
 
 
 
+<div style="line-height:200%;"><br></div>
 <div class="projects">
     <div class="project-teaser">
         <div class="project-img">
@@ -55,13 +57,19 @@ I am ahighly motivated by these questions
 Probabilistic numerics (PN) can be seen as the overarching research topic I am interested in. Sub-topics I have worked on
 are high-dimensional stochastic optimization for non-convex continuous functions, ordinary differential equation (ODE) solvers 
 and integration routines (quadrature).
-The general idea of PN is that the numerical quantity of interest is seen as a latent variable that is to be inferred.
-Results of computations related to the unknown quantity are interpreted as 'data' an incorporated via a likelihood model.
-Together with a prior, this yields a posterior on the unknown quantity that also models its numerical error.
-For instance, an integral value can be inferred from evaluations of the integrand at several locations, or the
+The general idea of PN is that the numerical quantity of interest is seen as a latent variable that is to be inferred
+probabilistically.
+Results of computations related to the unknown quantity are interpreted as 'data' and incorporated via a likelihood model.
+For instance, an integral value can be inferred from integrand evaluations at several locations, or the
 solutions of an ODE can be inferred from evaluations of the flow-field. 
-Thus, using the apparent connections to classic numerical methods, PN opens up the toolbox of probabilistic 
-inference to be applied to numerical problems which seems to me a vast, exciting and largely unexplored field.
+Together with a prior, this yields a posterior on the unknown quantity that also models its numerical error.
+Using some apparent connections to classic numerical methods, PN opens up the toolbox of probabilistic 
+inference to be applied to numerical problems which seems to me a vast, exciting and largely unexplored research field.
+
+I am contributing code related to probabilistic numerics mainly to the open source libraries [EmuKit](#emukit)
+and [ProbNum](#probnum).
+
+
 
 <ul style="list-style: none; margin: 0; padding: 0; display: inline-flex; font-size: 0.9em">
     <li><a class="button-projects" href=""><p>Site</p></a></li>
@@ -69,15 +77,16 @@ inference to be applied to numerical problems which seems to me a vast, exciting
 </ul>
 
 
+<div style="line-height:200%;"><br></div>
 <div class="projects">
     <div class="project-teaser">
         <div class="project-img">
-            <img alt="Hallo" src="./../assets/img/projects/filt_02.png">
+            <img alt="Hallo" src="./../assets/img/projects/filt_02a.png">
         </div>
     </div>
 </div>
 
-## Bayesian Qudrature
+## Bayesian Quadrature
 
 Bayesian quadrature is a model-based approach to numerical integration similar to how Bayesian optimization is a model-based
 approach to global optimization. 
@@ -86,10 +95,10 @@ possibly a richer quantity than a point estimate.
 In the machine learning community, we rely heavily on 'solved' numerical concepts such as (auto-)differentiation, 
 largely responsible for the success of discriminative models in supervised learning.
 I am keen on exploring concepts that yield efficient, automated and reliable integration schemes that 
-possibly tailors themselves to the user problem. In this sense, *auto-quad*, the sibling/inverse function to auto-diff.
+possibly tailors themselves to the user problem: In this sense, *auto-quad*, the sibling/inverse function to auto-diff.
 
-I am contributing code on Bayesian quadrature, both in the [EmuKit](#emukit), 
-and in the [ProbNum](#probnum) open source libraries (see below).
+I am contributing code on Bayesian quadrature mainly to the open source libraries [EmuKit](#emukit)
+and [ProbNum](#probnum).
 
 <ul style="list-style: none; margin: 0; padding: 0; display: inline-flex; font-size: 0.9em">
     <li><a class="button-projects" href=""><p>Papers</p></a></li>
@@ -97,12 +106,14 @@ and in the [ProbNum](#probnum) open source libraries (see below).
 
 
 <hr style="border:2px solid gray"> 
+<div style="line-height:200%;"><br></div>
 
 # Open Source Software
 
 The open source projects I mainly contribute to are related to the research topics above. 
 Please see my [GitHub](https://github.com/mmahsereci) as well.
 
+<div style="line-height:200%;"><br></div>
 <div class="projects">
     <div class="project-teaser">
         <div class="project-img">
@@ -147,6 +158,7 @@ Read more on EmuKit's structure
 </div>
 
 
+<div style="line-height:200%;"><br></div>
 <div class="projects">
     <div class="project-teaser">
         <div class="project-img">

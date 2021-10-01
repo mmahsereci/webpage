@@ -10,9 +10,11 @@ favicon: assets/favicon.ico                             # Icon displayed in the 
 
 # Header and footer text
 header_text: >
-     <p>  . </p>
-#     <p>  . </p>
+     <p>Hi, and welcome.</p>
 #     <p>Hi, and welcome. This is a tech blog.</p>
+#  <p>  . </p>
+#  <h1>Welcome</h1>
+#  <p>  . </p>
 
 #     <p>Enjoy.</p>
 header_feature_image: "assets/img/projects/aurora_02.jpg"
