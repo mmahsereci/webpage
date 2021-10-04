@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-#hide_title: true
 permalink: /about/
 #excerpt: About me.
 feature-img: "assets/img/projects/aurora_02.jpg"
@@ -104,7 +103,7 @@ Currently, back in academia.
         </a>
         <p style="margin-left: -50px; ">
           08/2013 - 02/2018: &nbsp;&nbsp;&nbsp; Max Planck Institute for Intelligent Systems
-                              &nbsp;&mdash;&nbsp; (PhD candidate)
+                              &nbsp;&mdash;&nbsp; (PhD)
         </p> 
     </li>
     <li>
@@ -122,7 +121,7 @@ Currently, back in academia.
         </a>
         <p style="margin-left: -50px; ">
           01/2013 - 07/2013: &nbsp;&nbsp;&nbsp; University of Goettingen 
-                              &nbsp;&mdash;&nbsp; (PhD-1 candidate, discontinued)
+                              &nbsp;&mdash;&nbsp; (PhD-1, discontinued)
         </p>
     </li>
     <li>
@@ -131,7 +130,7 @@ Currently, back in academia.
         </a>
         <p style="margin-left: -50px; ">
           07/2012 - 12/2012: &nbsp;&nbsp;&nbsp; Max Planck Institute Developmental Biology
-                              &nbsp;&mdash;&nbsp; (PhD-1 candidate)
+                              &nbsp;&mdash;&nbsp; (PhD-1)
         </p>
     </li>
     <li>
@@ -166,7 +165,8 @@ For projects, click [here]({{ site.baseurl }}{% link pages/projects.md %}) .
 
 ## Publications
 
-Sub-page tbd. Google Scholar page [here](https://scholar.google.com/citations?user=krBt_aIAAAAJ&hl=de).
+For a list of publications, click [here]({{ site.baseurl }}{% link pages/publications.md %}) .
+Google Scholar page [here](https://scholar.google.com/citations?user=krBt_aIAAAAJ&hl=de).
 
 ---
  
