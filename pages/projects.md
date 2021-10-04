@@ -23,7 +23,7 @@ Listed below are the research topics I am mainly interested in.
 <div class="projects">
     <div class="project-teaser">
         <div class="project-img">
-            <img alt="Hallo" src="./../assets/img/projects/filt_04.png">
+            <img alt="Numerics" src="./../assets/img/projects/filt_04.png">
         </div>
     </div>
 </div>
@@ -57,7 +57,7 @@ and [ProbNum](#probnum).
 <div class="projects">
     <div class="project-teaser">
         <div class="project-img">
-            <img alt="Hallo" src="./../assets/img/projects/opt_00a.png">
+            <img alt="Optimization" src="./../assets/img/projects/opt_00a.png">
         </div>
     </div>
 </div>
@@ -90,7 +90,7 @@ Please see my previous published work as well as my PhD thesis.
 <div class="projects">
     <div class="project-teaser">
         <div class="project-img">
-            <img alt="Hallo" src="./../assets/img/projects/filt_02a.png">
+            <img alt="Quadrature" src="./../assets/img/projects/filt_02a.png">
         </div>
     </div>
 </div>
@@ -126,7 +126,7 @@ Please see my [GitHub](https://github.com/mmahsereci) as well.
 <div class="projects">
     <div class="project-teaser">
         <div class="project-img">
-            <img alt="Hallo" src="./../assets/img/projects/emukit_taxisim.png">
+            <img alt="Emukit" src="./../assets/img/projects/emukit_taxisim.png">
         </div>
     </div>
 </div>
@@ -170,7 +170,7 @@ the code quickly. Read more on EmuKit's structure
 <div class="projects">
     <div class="project-teaser">
         <div class="project-img">
-            <img alt="Hallo" src="./../assets/img/projects/pn_02.png">
+            <img alt="Probnum" src="./../assets/img/projects/pn_02.png">
         </div>
     </div>
 </div>
