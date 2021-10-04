@@ -140,11 +140,7 @@ Bayesian optimization and Bayesian quadrature.
 EmuKit's design allows the user to customize the learning algorithm easily, 
 by switching out or adding new components (plug-and-play). 
 Further, EmuKit provides an interface for the surrogate model, such that custom models can be integrated into
-the code quickly.
-
-EmuKit is mostly designed for flexibility, and quick custom algorithm design for expert users. 
-Thus, it is mostly applicable at the 'outer loop' wher ethe function  
-Read more on EmuKit's structure 
+the code quickly. Read more on EmuKit's structure 
 [here](https://emukit.github.io/about/) or check it out on [GitHub](https://github.com/EmuKit/emukit).
 
 <ul style="list-style: none; margin: 0; padding: 0; display: inline-flex; font-size: 0.9em">
