@@ -10,8 +10,7 @@ tags: [Page]
 ---
 
 Click here to go to [research](#research) projects.<br>
-Click here to go to [open source software](#open-source-software) projects.<br>
-Projects in no particular order.
+Click here to go to [open source software](#open-source-software) projects.
 
 <hr style="border:2px solid gray"> 
 
@@ -81,7 +80,7 @@ I am highly motivated by these questions and their relation to probabilistic num
 Please see my previous published work as well as my PhD thesis.
 
 <ul style="list-style: none; margin: 0; padding: 0; display: inline-flex; font-size: 0.9em">
-    <li><a class="button-projects" href=""><p>Thesis</p></a></li>
+    <li><a class="button-projects" href="https://publikationen.uni-tuebingen.de/xmlui/handle/10900/84726"><p>Thesis</p></a></li>
     <li><a class="button-projects" href=""><p>Papers</p></a></li>
 </ul>
 

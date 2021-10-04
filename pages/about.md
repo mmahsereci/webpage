@@ -1,13 +1,13 @@
 ---
 layout: page
 title: About
-hide_title: true
+#hide_title: true
 permalink: /about/
-excerpt: About me.
+#excerpt: About me.
+feature-img: "assets/img/projects/aurora_02.jpg"
 tags: [Contact]
 ---
 
----
 <br>
 
 <div style="max-width:40%; float:left; text-align:center" >
@@ -16,9 +16,9 @@ tags: [Contact]
     <span style="display:inline-block">Dover, UK 2018.</span>
   </em>
 </div>
-Hi, I am **Maren**. 
+Hi, 
 
-I am a postdoctoral researcher at the 
+I am Maren. I am a postdoctoral researcher at the 
 [University of T&uuml;bingen](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/), 
 however a lot of my time I spend in Berlin.
 

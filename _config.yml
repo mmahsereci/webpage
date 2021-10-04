@@ -10,7 +10,11 @@ favicon: assets/favicon.ico                             # Icon displayed in the 
 
 # Header and footer text
 header_text: >
-     <p>Machine learning, statistics and other stuff.</p>
+     <p>Machine learning &nbsp; &bull; &nbsp; Statistics &nbsp; &bull; &nbsp; Random</p>
+#     <p>Machine learning &nbsp; &#9679; &nbsp; Statistics &nbsp; &#9679; &nbsp; Random</p>
+#     <p>Machine learning &nbsp; &#9734; &nbsp; Statistics &nbsp; &#9734; &nbsp; Random</p>
+#     <p>Machine learning &nbsp; &starf; &nbsp; Statistics &nbsp; &starf; &nbsp; Random</p>
+#     <p>Machine learning &bull; Statistics &bull; Other stuff.</p>
 #     <p>Hi, and welcome.</p>
 #     <p>Hi, and welcome. This is a tech blog.</p>
 #  <p>  . </p>
@@ -23,6 +27,17 @@ header_feature_image: "assets/img/projects/aurora_02.jpg"
 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+  &nbsp;&bull;&nbsp;
+  Blog
+  <a href="https://commons.wikimedia.org/wiki/Aurora#/media/File:Aurora_borealis_above_Storfjorden_and_the_Lyngen_Alps_in_moonlight,_2012_March.jpg">title image</a>
+  by
+  <a href="https://commons.wikimedia.org/wiki/User:Ximonic">Ximonic</a>
+  [<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>] cropped, flipped
+  &nbsp;&bull;&nbsp;
+  <a href="https://commons.wikimedia.org/wiki/File:Andromeda_Galaxy_M31_-_Heic1502a_10k.jpg">Search image</a>
+  by ESA/Hubble under
+  [<a href="https://creativecommons.org/licenses/by/4.0/deed.en">CC BY 4.0</a>]
+  </br>Copyright <a href="https://github.com/mmahsereci">mmahsereci</a> © 2021
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable

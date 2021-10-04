@@ -98,6 +98,6 @@ tags: [Page]
 - 06/2013: I attended the [*Gaussian Process Summer School*](http://gpss.cc/gpss13/) (GPSS) as well as the 
   [*Latent Force Model Workshop*](http://gpss.cc/lfm13/) Sheffield, UK.
  
-Header Image available under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), 
-sourced [here](https://en.wikipedia.org/wiki/Arecibo_Telescope#/media/File:Panorama_arecibo_telescope_from_observation_deck.jpg),
-original creator [Evilkalla](https://en.wikipedia.org/wiki/User:Evilkalla).
+[Header Image](https://en.wikipedia.org/wiki/Arecibo_Telescope#/media/File:Panorama_arecibo_telescope_from_observation_deck.jpg) 
+by [Evilkalla](https://en.wikipedia.org/wiki/User:Evilkalla) 
+[[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)].
