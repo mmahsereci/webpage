@@ -10,37 +10,14 @@ tags: [Page]
 ---
 
 Click here to go to [research](#research) projects.<br>
-Click here to go to [open source software](#open-source-software) projects.
+Click here to go to [open source software](#open-source-software) projects.<br>
+Projects in no particular order.
 
 <hr style="border:2px solid gray"> 
 
 # Research
 
 Listed below are the research topics I am mainly interested in. 
-
-
-<div style="line-height:200%;"><br></div>
-<div class="projects">
-    <div class="project-teaser">
-        <div class="project-img">
-            <img alt="Hallo" src="./../assets/img/projects/opt_00.png">
-        </div>
-    </div>
-</div>
-
-## Stochastic Optimization
-
-Empirical risk minimization for hiigh-dimensiona lobejctives, potetntiallhy a lot f data, stochsticity.
-how can we even make progress in those spaces. It makes sens eto me than information or handling en noise is crucual
-.Related pruning: how do we use the information of te optimizer to solve other simulatenous talsk, suh as orunig or overfitting.
-
-I am ahighly motivated by these questions
-
-<ul style="list-style: none; margin: 0; padding: 0; display: inline-flex; font-size: 0.9em">
-    <li><a class="button-projects" href=""><p>Thesis</p></a></li>
-    <li><a class="button-projects" href=""><p>Papers</p></a></li>
-</ul>
-
 
 
 <div style="line-height:200%;"><br></div>
@@ -57,13 +34,12 @@ I am ahighly motivated by these questions
 Probabilistic numerics (PN) can be seen as the overarching research topic I am interested in. Sub-topics I have worked on
 are high-dimensional stochastic optimization for non-convex continuous functions, ordinary differential equation (ODE) solvers 
 and integration routines (quadrature).
-The general idea of PN is that the numerical quantity of interest is seen as a latent variable that is to be inferred
-probabilistically.
+The general idea of PN is that the numerical quantity of interest is seen as a latent variable that is to be inferred.
 Results of computations related to the unknown quantity are interpreted as 'data' and incorporated via a likelihood model.
 For instance, an integral value can be inferred from integrand evaluations at several locations, or the
 solutions of an ODE can be inferred from evaluations of the flow-field. 
-Together with a prior, this yields a posterior on the unknown quantity that also models its numerical error.
-Using some apparent connections to classic numerical methods, PN opens up the toolbox of probabilistic 
+Combined with a prior, PN-methods yield a posterior distribution on the unknown quantity that also models its numerical error.
+Using some apparent connections to classic numerical methods, PN thus opens up the toolbox of probabilistic 
 inference to be applied to numerical problems which seems to me a vast, exciting and largely unexplored research field.
 
 I am contributing code related to probabilistic numerics mainly to the open source libraries [EmuKit](#emukit)
@@ -75,6 +51,40 @@ and [ProbNum](#probnum).
     <li><a class="button-projects" href=""><p>Site</p></a></li>
     <li><a class="button-projects" href=""><p>Papers</p></a></li>
 </ul>
+
+
+
+<div style="line-height:200%;"><br></div>
+<div class="projects">
+    <div class="project-teaser">
+        <div class="project-img">
+            <img alt="Hallo" src="./../assets/img/projects/opt_00a.png">
+        </div>
+    </div>
+</div>
+
+## Stochastic Optimization
+
+High-dimensional stochastic, non-convex optimization (such as required to train neural networks) is fascinating to me.
+How can we hope to make progress and find a minimizer in such a high-dimensional space with so little and information available? 
+Are mini-batch gradients enough? Which quantities can we use to do better?
+How do we handle the uncertainties?
+
+It makes sense to me that novel quantities need to be considered, such as variances of statistics that describe their 
+distributions, and that noise needs to be handled and quantified better.
+I have worked on several aspects of stochastic optimization, such as line-searches, 
+filtering for noise-reduced search directions, generalization and overfitting, or dynamic pruning during network training.
+There are two related questions: How do we design better opimizers, and which quantities do we need? 
+But also, how can we use the information contained in optimization steps, to solve other simultaneous, related tasks, 
+such as pruning (network design) or overfitting? After all, the model, the optimization landscape, and the data interact.
+I am highly motivated by these questions and their relation to probabilistic numerics (see above).
+Please see my previous published work as well as my PhD thesis.
+
+<ul style="list-style: none; margin: 0; padding: 0; display: inline-flex; font-size: 0.9em">
+    <li><a class="button-projects" href=""><p>Thesis</p></a></li>
+    <li><a class="button-projects" href=""><p>Papers</p></a></li>
+</ul>
+
 
 
 <div style="line-height:200%;"><br></div>
@@ -132,6 +142,9 @@ EmuKit's design allows the user to customize the learning algorithm easily,
 by switching out or adding new components (plug-and-play). 
 Further, EmuKit provides an interface for the surrogate model, such that custom models can be integrated into
 the code quickly.
+
+EmuKit is mostly designed for flexibility, and quick custom algorithm design for expert users. 
+Thus, it is mostly applicable at the 'outer loop' wher ethe function  
 Read more on EmuKit's structure 
 [here](https://emukit.github.io/about/) or check it out on [GitHub](https://github.com/EmuKit/emukit).
 
@@ -162,7 +175,7 @@ Read more on EmuKit's structure
 <div class="projects">
     <div class="project-teaser">
         <div class="project-img">
-            <img alt="Hallo" src="./../assets/img/projects/pn_01.png">
+            <img alt="Hallo" src="./../assets/img/projects/pn_02.png">
         </div>
     </div>
 </div>

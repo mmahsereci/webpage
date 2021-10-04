@@ -3,14 +3,15 @@ baseurl: ""
 url: "https://mmahsereci.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Techblog                                   # site's title
+title: Blog                                   # site's title
 description: "A website with blog posts and pages"      # used by search engines
 avatar: assets/img/Frau_profile.jpg                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
 header_text: >
-     <p>Hi, and welcome.</p>
+     <p>Machine learning, statistics and other stuff.</p>
+#     <p>Hi, and welcome.</p>
 #     <p>Hi, and welcome. This is a tech blog.</p>
 #  <p>  . </p>
 #  <h1>Welcome</h1>

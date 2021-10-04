@@ -43,7 +43,7 @@ I am interested in
 teach or remind myself of basic or novel concepts in machine learning and statistics 
 (and sometimes I create them just for fun).
 In case someone finds them interesting or helpful, I thought I'd put them online and polish them one-by-one 
-whenever I find the time by adding them to the tech blog :) Also, I wanted to teach myself some html and Jekyll..
+whenever I find the time by adding them to the blog :) Also, I wanted to teach myself some html and Jekyll..
 
 ---
 
