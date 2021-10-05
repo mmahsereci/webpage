@@ -55,3 +55,15 @@
     margin-top: 1em;
   }
 }
+
+/* --- buttons list --- */
+.project-ul {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    font-size: 0.9em;
+  }
+
+}
