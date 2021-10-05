@@ -150,7 +150,7 @@ the code quickly. Read more on EmuKit's structure
     <li><a class="button-projects" onclick="CollapseBibTeX('BibEntryEmukit')"><p>BibTeX</p></a></li>
 </ul>
 
-<div id="BibEntryEmukit" style="display: none; color: #e6db74;">
+<div id="BibEntryEmukit" style="display: none; color: #D8DEE9;">
   <blockquote style="border: 0px solid #666; padding: 10px; background-color: #2E3440;"> 
     <div style="margin-left: 0.5em;">
       @inproceedings{emukit2019,
