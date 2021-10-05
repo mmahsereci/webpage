@@ -22,7 +22,7 @@ I am Maren. I am a postdoctoral researcher at the
 [University of T&uuml;bingen](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/), 
 however a lot of my time I spend in Berlin.
 
-I am interested in 
+I am [interested in]({{ site.baseurl }}{% link pages/projects.md %})
 
 <div style="max-width:65%; float:left; text-align:left; margin-left: 10px" >
 <ul>
