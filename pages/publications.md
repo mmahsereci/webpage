@@ -16,8 +16,7 @@ The paper introduces active learning for Bayesian quadrature when multiple relat
 cost in input and source are accessible. This setting arises for example when evaluating the integrand requires a 
 complex simulation to be run that can be approximated by simulating at lower levels of sophistication and at lesser 
 expense. We construct meaningful cost-sensitive multi-source acquisition rates and discuss pitfalls.
-
-<div style="line-height:1%;"><br></div>
+<br>
 *A. Gessner, J. Gonzalez, M. Mahsereci* Proceedings of The 35th Uncertainty in Artificial Intelligence Conference, PMLR 115:712-721, 2020. 
 
 <div class="pub-ul"><ul>
