@@ -32,6 +32,17 @@ tags: [Page]
 
 ---
 
+{% include_relative publications/Mahsereci17b.html %}
+
+---
+
+{% include_relative publications/Mahsereci17a.html %}
+
+---
+{% include_relative publications/Mahsereci15.html %}
+
+---
+
 <div style="line-height:500%;">
     <br>
 </div>
