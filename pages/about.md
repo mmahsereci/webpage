@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-#hide_title: true
 permalink: /about/
 #excerpt: About me.
 feature-img: "assets/img/projects/aurora_02.jpg"
@@ -166,7 +165,8 @@ For projects, click [here]({{ site.baseurl }}{% link pages/projects.md %}) .
 
 ## Publications
 
-Sub-page tbd. Google Scholar page [here](https://scholar.google.com/citations?user=krBt_aIAAAAJ&hl=de).
+For a list of publications, click [here]({{ site.baseurl }}{% link pages/publications.md %}) .
+Google Scholar page [here](https://scholar.google.com/citations?user=krBt_aIAAAAJ&hl=de).
 
 ---
  

@@ -46,10 +46,10 @@ and [ProbNum](#probnum).
 
 
 
-<ul style="list-style: none; margin: 0; padding: 0; display: inline-flex; font-size: 0.9em">
+<div class="project-ul"><ul>
     <li><a class="button-projects" href=""><p>Site</p></a></li>
     <li><a class="button-projects" href=""><p>Papers</p></a></li>
-</ul>
+</ul></div>
 
 
 
@@ -79,10 +79,10 @@ such as pruning (network design) or overfitting? After all, the model, the optim
 I am highly motivated by these questions and their relation to probabilistic numerics (see above).
 Please see my previous published work as well as my PhD thesis.
 
-<ul style="list-style: none; margin: 0; padding: 0; display: inline-flex; font-size: 0.9em">
+<div class="project-ul"><ul>
     <li><a class="button-projects" href="https://publikationen.uni-tuebingen.de/xmlui/handle/10900/84726"><p>Thesis</p></a></li>
     <li><a class="button-projects" href=""><p>Papers</p></a></li>
-</ul>
+</ul></div>
 
 
 
@@ -109,9 +109,9 @@ possibly tailors themselves to the user problem: In this sense, *auto-quad*, the
 I am contributing code on Bayesian quadrature mainly to the open source libraries [EmuKit](#emukit)
 and [ProbNum](#probnum).
 
-<ul style="list-style: none; margin: 0; padding: 0; display: inline-flex; font-size: 0.9em">
+<div class="project-ul"><ul>
     <li><a class="button-projects" href=""><p>Papers</p></a></li>
-</ul>
+</ul></div>
 
 
 <hr style="border:2px solid gray"> 
@@ -143,12 +143,12 @@ Further, EmuKit provides an interface for the surrogate model, such that custom 
 the code quickly. Read more on EmuKit's structure 
 [here](https://emukit.github.io/about/) or check it out on [GitHub](https://github.com/EmuKit/emukit).
 
-<ul style="list-style: none; margin: 0; padding: 0; display: inline-flex; font-size: 0.9em">
+<div class="project-ul"><ul>
     <li><a class="button-projects" href="https://github.com/EmuKit/emukit"><p>Code</p></a></li>
     <li><a class="button-projects" href="https://emukit.github.io/"><p>Site</p></a></li>
     <li><a class="button-projects" href="https://ml4physicalsciences.github.io/2019/files/NeurIPS_ML4PS_2019_113.pdf"><p>Paper</p></a></li>
     <li><a class="button-projects" onclick="CollapseBibTeX('BibEntryEmukit')"><p>BibTeX</p></a></li>
-</ul>
+</ul></div>
 
 <div id="BibEntryEmukit" style="display: none; color: #D8DEE9;">
   <blockquote style="border: 0px solid #666; padding: 10px; background-color: #2E3440;"> 
@@ -187,18 +187,17 @@ Lower level structure of ProbNum includes: A module for random variables and ran
 (memory-)efficient and lazy implementation of linear operators that integrate with random variables;
 filtering and smoothing for probabilistic state-space models, mostly variants of Kalman filters.
 
-
-<ul style="list-style: none; margin: 0; padding: 0; display: inline-flex; font-size: 0.9em">
+<div class="project-ul"><ul>
     <li><a class="button-projects" href="https://github.com/probabilistic-numerics/probnum"><p>Code</p></a></li>
     <li><a class="button-projects" href="http://www.probabilistic-numerics.org"><p>Site</p></a></li>
-</ul>
+</ul></div>
 
 
 
 <script>
 function CollapseBibTeX(name) {
   var x = document.getElementById(name);
-  if (x.style.display === "none") {
+  if (x.style.display == "none") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
