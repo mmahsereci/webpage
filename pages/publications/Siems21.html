@@ -6,7 +6,7 @@ research into post-hoc weight-pruning suggests that most parameters can be remov
 without loss in predictive performance. In the paper, we investigate dynamic sparsity pruning that adapts the
 sparse structure of the neural network during training.
 We use statistics collected by the optimizer and prune weights according to their magnitude and their gradient signal-to-noise ratio.
-This means that weights get pruned that are small as well as converged as their gradients resemble white noise gradients.
+This means that weights get pruned that are small as well as converged indicated by their gradients resembling white noise.
 The procedure also yields an automated sparsity schedule.
 <br>
 *J. Siems, A. Klein, C. Archambeau and Maren Mahsereci* 8th Workshop on Automated Machine Learning (AutoML) @ ICML 2020.

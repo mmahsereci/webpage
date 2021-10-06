@@ -1,0 +1,47 @@
+/* --- Publications listing --- */
+.pub-img {
+  max-width: 20%;
+  float: left;
+
+  img {
+      padding: 2% 15%;
+      border-radius: 0%;
+      margin-bottom: 0em;
+      float: left;
+  }
+}
+
+/* --- BibTex Entry --- */
+.pub-bib{
+  display: none;
+  color: #D8DEE9;
+
+  blockquote{
+    order: 0px;
+    solid: #666;
+    padding: 10px;
+    background-color: #2E3440;
+  }
+
+}
+
+/* --- not sure if this makes sense like this --- */
+.div-name {
+  margin-left: 0.5em;
+}
+
+.div-info{
+  margin-left: 2em;
+}
+
+/* --- buttons list --- */
+.pub-ul {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    font-size: 0.9em;
+  }
+
+}
