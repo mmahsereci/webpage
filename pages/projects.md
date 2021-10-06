@@ -65,7 +65,7 @@ and [ProbNum](#probnum).
 ## Stochastic Optimization
 
 High-dimensional stochastic, non-convex optimization (such as required to train neural networks) is fascinating to me.
-How can we hope to make progress and find a minimizer in such a high-dimensional space with so little and information available? 
+How can we hope to make progress and find a minimizer in such a high-dimensional space with so little information available? 
 Are mini-batch gradients enough? Which quantities can we use to do better?
 How do we handle the uncertainties?
 
