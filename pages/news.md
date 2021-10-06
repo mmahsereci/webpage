@@ -51,7 +51,7 @@ tags: [Page]
 - 12/2018: Our **paper** [*On Acquisition Functions for Active Multi-Source Bayesian Quadrature*](https://d39w7f4ix9f5s9.cloudfront.net/aa/b2/50a316984beab1dd39244efc1f7d/scipub-272.pdf) 
   of my intern *Alex Gessner* has been accepted at the [*All of Bayesian Nonparametrics Workshop*](https://sites.google.com/view/nipsbnp2018/)) @ NeurIPS 2018.
 - 11/2018: My PhD thesis [*Probabilistic Approaches to Stochastic Optimization*](https://publikationen.uni-tuebingen.de/xmlui/handle/10900/84726) is published. 
-  Please check out chapters 5-6 especially as they contain work not published elsewhere yet, and I think it's cool!
+  Please check out chapters 8-9 especially as they contain work not published elsewhere yet, and I think it's cool!
 - 10/2018: We **open sourced** [Emukit](https://github.com/EmuKit/emukit) on GitHub (short for emulation toolkit). I am one of the co-maintainers and original authors.
 - 07/2018: I successfully defended my PhD! 
 - 05/2018: Looking forward to working with my summer-intern *Alex Gessner* at Amazon Cambridge, UK.
