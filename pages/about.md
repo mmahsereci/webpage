@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 #excerpt: About me.
-feature-img: "assets/img/projects/aurora_02.jpg"
+feature-img: "assets/img/aurora_03.jpg"
 tags: [Contact]
 ---
 

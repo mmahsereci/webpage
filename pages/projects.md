@@ -3,8 +3,7 @@ layout: page
 title: "Projects"
 subtitle: ""
 permalink: /projects/
-#feature-img: "assets/img/projects/aurora_02a.jpg"
-feature-img: "assets/img/projects/aurora_02.jpg"
+feature-img: "assets/img/aurora_03.jpg"
 
 tags: [Page]
 ---

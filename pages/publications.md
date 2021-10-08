@@ -3,7 +3,7 @@ layout: page
 title: "Publications"
 subtitle: ""
 permalink: /publications/
-feature-img: "assets/img/publications/aurora_02.jpg"
+feature-img: "assets/img/aurora_03.jpg"
 #hide: True
 
 tags: [Page]

@@ -16,15 +16,8 @@ header_text: >
 #     <p>Machine learning &nbsp; &#9734; &nbsp; Statistics &nbsp; &#9734; &nbsp; Random</p>
 #     <p>Machine learning &nbsp; &starf; &nbsp; Statistics &nbsp; &starf; &nbsp; Random</p>
 #     <p>Machine learning &bull; Statistics &bull; Other stuff.</p>
-#     <p>Hi, and welcome.</p>
-#     <p>Hi, and welcome. This is a tech blog.</p>
-#  <p>  . </p>
-#  <h1>Welcome</h1>
-#  <p>  . </p>
 
-#     <p>Enjoy.</p>
-header_feature_image: "assets/img/projects/aurora_02.jpg"
-#header_feature_image: assets/img/blog/Frau_centered2.jpg
+header_feature_image: "assets/img/aurora_03.jpg"
 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
