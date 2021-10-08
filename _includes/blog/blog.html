@@ -4,45 +4,70 @@
     {% endunless %}
     {% for post in paginator.posts %}
     <div class="post-teaser">
+        <!-- do this if you want the fancy moving title image -->
         {% if post.thumbnail %}
-        <div class="post-img">
-            <a aria-label="{{ post.title }}" href="{{ post.url | relative_url }}">
-                <img alt="{{ post.title }}" src="{{ post.thumbnail | relative_url }}">
-            </a>
-        </div>
+            <div class="post-img">
+                <a aria-label="{{ post.title }}" href="{{ post.url | relative_url }}">
+                    <img alt="{{ post.title }}" src="{{ post.thumbnail | relative_url }}">
+                </a>
+            </div>
+
+            <span>
+              <header>
+                <h1>
+                  <a aria-label="{{ post.title }}" class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title }}
+                  </a>
+                </h1>
+                <!--
+                {% include blog/post_info.html author=post.author date=post.date %}
+                -->
+                {% include blog/post_info.html date=post.date %}
+              </header>
+              {% if site.excerpt or site.theme_settings.excerpt %}
+                  <div class="excerpt">
+                      {% if site.excerpt == "truncate" %}
+                         {{ post.content | strip_html | truncate: '250' | escape }}
+                      {% else %}
+                         {{ post.excerpt | strip_html | escape }}
+                      {% endif %}
+                  </div>
+              {% endif %}
+            </span>
         {% endif %}
 
+        <!-- do this if you want the small thumbnail on the side -->
+        <!-- this does not handle if both or none are given -->
         {% if post.thumbnail-small %}
-        <div style="max-width:30%; float:left" >
-          <img style="padding:5% 15%; border-radius: 10%; float: left" src="{{ post.thumbnail-small | relative_url }}">
-        </div>
-        {% else %}
-        <div style="max-width:30%; float:left" >
-          <img style="padding:5% 15%; border-radius: 10%; float: left" src="assets/img/blog/story.jpeg">
-        </div>
-        {% endif %}
-        <span>
-          <header>
-            <h1>
-              <a aria-label="{{ post.title }}" class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title }}
-              </a>
-            </h1>
-            <!--
-            {% include blog/post_info.html author=post.author date=post.date %}
-            -->
-            {% include blog/post_info.html date=post.date %}
-          </header>
-          {% if site.excerpt or site.theme_settings.excerpt %}
-              <div class="excerpt">
-                  {% if site.excerpt == "truncate" %}
-                     {{ post.content | strip_html | truncate: '250' | escape }}
-                  {% else %}
-                     {{ post.excerpt | strip_html | escape }}
+            <div class="post-s-img" >
+              <img src="{{ post.thumbnail-small | relative_url }}">
+            </div>
+            <div class="post-s-title">
+                <span>
+                  <header>
+                    <h1>
+                      <a aria-label="{{ post.title }}" class="post-link" href="{{ post.url | relative_url }}">
+                        {{ post.title }}
+                      </a>
+                    </h1>
+                    {% include blog/post_info.html date=post.date %}
+                  </header>
+                </span>
+            </div>
+            <div class="post-s-excerpt">
+                <span>
+                  {% if site.excerpt or site.theme_settings.excerpt %}
+                      <div class="excerpt">
+                          {% if site.excerpt == "truncate" %}
+                             {{ post.content | strip_html | truncate: '250' | escape }}
+                          {% else %}
+                             {{ post.excerpt | strip_html | escape }}
+                          {% endif %}
+                      </div>
                   {% endif %}
-              </div>
-          {% endif %}
-      </span>
+              </span>
+            </div>
+        {% endif %}
     </div>
     {% endfor %}
 </div>
