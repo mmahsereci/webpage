@@ -2,6 +2,18 @@
 
 .pub-container{
 }
+
+.pub-abstract{
+  @media (min-width: $break) {
+    margin-left: 20%;
+  }
+
+  //Smaller screen
+  @media screen and (max-width: $break) {
+    margin-left: 0;
+  }
+}
+
 .pub-img {
   overflow: auto;
 
