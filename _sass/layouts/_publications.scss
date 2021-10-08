@@ -25,7 +25,7 @@
   //Smaller screen
   @media screen and (max-width: $break) {
     max-width: 30%;
-    float: left;
+    float: right;
   }
 
   img {
@@ -39,6 +39,15 @@
 .pub-bib{
   display: none;
   color: #D8DEE9;
+
+  @media (min-width: $break) {
+    font-size: 1em;
+  }
+
+  //Smaller screen
+  @media screen and (max-width: $break) {
+    font-size: 0.5em;
+  }
 
   blockquote{
     order: 0px;
