@@ -41,7 +41,7 @@
   color: #D8DEE9;
 
   @media (min-width: $break) {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   //Smaller screen
@@ -61,6 +61,10 @@
 /* --- not sure if this makes sense like this --- */
 .pub-name {
   margin-left: 0.5em;
+
+  p {
+    margin-bottom: 0;
+  }
 }
 
 .pub-info{

@@ -150,16 +150,20 @@ the code quickly. Read more on EmuKit's structure
     <li><a class="button-projects" onclick="CollapseBibTeX('BibEntryEmukit')"><p>BibTeX</p></a></li>
 </ul></div>
 
-<div id="BibEntryEmukit" style="display: none; color: #D8DEE9;">
-  <blockquote style="border: 0px solid #666; padding: 10px; background-color: #2E3440;"> 
-    <div style="margin-left: 0.5em;">
-      @inproceedings{emukit2019,
-        <div style="margin-left: 2em;">
-          author = {Paleyes, Andrei and Pullin, Mark and Mahsereci, Maren and Lawrence, Neil and González, Javier},<br>
-          title = {Emulation of physical processes with Emukit},<br>
-          booktitle = {Second Workshop on Machine Learning and the Physical Sciences, NeurIPS},<br>
-          year = {2019}
-        </div>  
+<div class="pub-bib" id="BibEntryEmukit">
+  <blockquote>
+    <div class="pub-name">
+        <p>
+            @inproceedings{emukit2019,
+        </p>
+        <div class="pub-info">
+            <p>
+              author = {Paleyes, Andrei and Pullin, Mark and Mahsereci, Maren and Lawrence, Neil and González, Javier},<br>
+              title = {Emulation of physical processes with Emukit},<br>
+              booktitle = {Second Workshop on Machine Learning and the Physical Sciences, NeurIPS},<br>
+              year = {2019}
+            </p>
+        </div>
       }
    </div>
   </blockquote>
@@ -197,7 +201,7 @@ filtering and smoothing for probabilistic state-space models, mostly variants of
 <script>
 function CollapseBibTeX(name) {
   var x = document.getElementById(name);
-  if (x.style.display == "none") {
+  if (x.style.display == "none" || x.style.display == '') {
     x.style.display = "block";
   } else {
     x.style.display = "none";
