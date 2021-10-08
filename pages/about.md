@@ -9,33 +9,42 @@ tags: [Contact]
 
 <br>
 
-<div style="max-width:40%; float:left; text-align:center" >
-  <img style="padding:0 15%; border-radius: 50%; float: left" src="./../assets/img/about/profile2.jpg" alt="profile">
-  <em>
-    <span style="display:inline-block">Dover, UK 2018.</span>
-  </em>
-</div>
-Hi, 
+{% if post.thumbnail-small %}
+{% endif %}
 
-I am Maren. I am a postdoctoral researcher at the 
-[University of T&uuml;bingen](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/), 
-however a lot of my time I spend in Berlin.
 
-I am [interested in]({{ site.baseurl }}{% link pages/projects.md %})
-
-<div style="max-width:65%; float:left; text-align:left; margin-left: 10px" >
-<ul>
-  <li>Stochastic optimization.</li>
-  <li>Probabilistic Numerics (the inner loop).</li>
-  <li>Statistical Emulation (the outer loop).</li>
-  <li>Open Source.</li>
-</ul>
-<ul style="list-style: none; margin: 0; padding: 0; display: inline-flex; font-size: 0.9em">
-  {% include social/icons.html %}
-</ul>  
-</div>
-<div style="line-height:1200%;">
-    <br>
+<div class="about-container">                
+    <div class="about-img">
+      <img src="./../assets/img/about/profile2.jpg" alt="profile">
+      <em><span class="about-caption">Dover, UK 2018.</span></em>
+    </div>
+    <div class="about-block">
+        <p>Hi,</p>
+        <p>I am Maren. I am a postdoctoral researcher at the
+          <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/">
+            University of T&uuml;bingen
+          </a>, 
+          however a lot of my time I spend in Berlin.<br>
+          I am 
+          <a href="{{ site.baseurl }}{% link pages/projects.md %}">
+            interested in
+          </a>
+        </p> 
+        <div class="about-ul" >
+          <ul>
+            <li>Stochastic optimization.</li>
+            <li>Probabilistic Numerics (the inner loop).</li>
+            <li>Statistical Emulation (the outer loop).</li>
+            <li>Open Source.</li>
+          </ul>
+          <ul style="list-style: none; margin: 0; padding: 0; display: inline-flex; font-size: 0.9em">
+            {% include social/icons.html %}
+          </ul>  
+        </div>
+        <div class="about-spacer">
+            <br>
+        </div>
+    </div>
 </div>
 
 **About the blog:** Over the years I have accumulated a bunch of scripts and notes, created mostly with the intent to visualize, 
@@ -72,7 +81,7 @@ Currently, back in academia.
   <ul style="list-style: none; line-height:200%; margin-left: -30px; padding-left: 0px; ">
     <li>
         <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/">
-          <img src="./../assets/img/about/tue.svg" alt="" width="230" />
+          <img src="./../assets/img/about/tue.svg" alt="" width="25%" />
         </a>
         <p style="margin-left: -50px; ">
           05/2021 - today: &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; University of T&uuml;bingen 
