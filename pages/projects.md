@@ -19,7 +19,8 @@ Click here to go to [open source software](#open-source-software) projects.
 Listed below are the research topics I am mainly interested in. 
 
 
-<div style="line-height:200%;"><br></div>
+<div class="projects-spacer"><br></div>
+
 <div class="projects">
     <div class="project-teaser">
         <div class="project-img">
@@ -115,14 +116,14 @@ and [ProbNum](#probnum).
 
 
 <hr style="border:2px solid gray"> 
-<div style="line-height:200%;"><br></div>
+<div class="projects-spacer"><br></div>
 
 # Open Source Software
 
 The open source projects I mainly contribute to are related to the research topics above. 
 Please see my [GitHub](https://github.com/mmahsereci) as well.
 
-<div style="line-height:200%;"><br></div>
+<div class="projects-spacer"><br></div>
 <div class="projects">
     <div class="project-teaser">
         <div class="project-img">

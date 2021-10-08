@@ -23,7 +23,7 @@
 
       //Smaller screen
       @media screen and (max-width: $break) {
-        height: 100px;
+        height: 100px; /* 150 */
       }
 
       img {
@@ -51,9 +51,6 @@
     }
   }
 
-  .excerpt {
-    margin-top: 1em;
-  }
 }
 
 /* --- buttons list --- */
@@ -66,4 +63,15 @@
     font-size: 0.9em;
   }
 
+}
+
+.projects-spacer{
+      @media (min-width: $break) {
+        line-height:200%;
+      }
+
+      //Smaller screen
+      @media screen and (max-width: $break) {
+        line-height: 0%;
+      }
 }
