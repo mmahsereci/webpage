@@ -4,16 +4,19 @@
 }
 
 .about-img {
-  float: left;
   text-align: center;
 
   @media (min-width: $break) {
+    float: left;
     max-width: 40%;
   }
 
   //Smaller screen
   @media screen and (max-width: $break) {
-    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
   }
 
   img {
@@ -60,4 +63,26 @@
   @media screen and (max-width: $break) {
     line-height:1000%;
   }
+}
+
+// Background section
+.about-bg-container{
+    width: 100%;
+    overflow: auto;
+    vertical-align: middle;
+    margin-left: 0;
+}
+
+.about-bg-img {
+    float: left;
+    width: 5%;
+    margin: 0px 0px 0 0;
+
+    img {
+      display: block;
+    }
+}
+
+.about-bg-text{
+  margin-left: 8%;
 }

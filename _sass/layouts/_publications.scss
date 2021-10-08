@@ -1,14 +1,23 @@
 /* --- Publications listing --- */
+
 .pub-img {
-  max-width: 20%;
-  float: left;
   overflow: auto;
+
+  @media (min-width: $break) {
+    max-width: 20%;
+    float: left;
+  }
+
+  //Smaller screen
+  @media screen and (max-width: $break) {
+    max-width: 30%;
+    float: left;
+  }
 
   img {
       padding: 2% 15%;
       border-radius: 0%;
       margin-bottom: 0em;
-      float: left;
   }
 }
 
