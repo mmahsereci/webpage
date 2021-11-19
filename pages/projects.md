@@ -15,7 +15,7 @@ Click here to go to [open source software](#open-source-software) projects.
 
 # Research
 
-Listed below are the research topics I am mainly interested in. 
+Listed below are the research topics I am mainly involved in. 
 
 
 <div class="projects-spacer"><br></div>

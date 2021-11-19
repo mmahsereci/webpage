@@ -22,8 +22,8 @@ tags: [Contact]
         <p>Hi,</p>
         <p>I am Maren. I am a postdoctoral researcher at the
           <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/">
-            University of T&uuml;bingen
-          </a>, 
+            University of T&uuml;bingen,
+          </a> 
           however a lot of my time I spend in Berlin.<br>
           I am 
           <a href="{{ site.baseurl }}{% link pages/projects.md %}">
@@ -46,12 +46,6 @@ tags: [Contact]
         </div>
     </div>
 </div>
-
-**About the blog:** Over the years I have accumulated a bunch of scripts and notes, created mostly with the intent to visualize, 
-teach or remind myself of basic or novel concepts in machine learning and statistics 
-(and sometimes I create them just for fun).
-In case someone finds them interesting or helpful, I thought I'd put them online and polish them one-by-one 
-whenever I find the time by adding them to the blog :) Also, I wanted to teach myself some html and Jekyll..
 
 ---
 
